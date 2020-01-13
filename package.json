@@ -12,9 +12,9 @@
         "litecoin",
         "scrypt"
     ],
-    "homepage": "https://github.com/Stackout/node-stratum-pool",
+    "homepage": "https://github.com/sygem/node-stratum-pool",
     "bugs": {
-        "url": "https://github.com/Stackout/node-stratum-pool/issues"
+        "url": "https://github.com/sygemt/node-stratum-pool/issues"
     },
     "license": "GPL-2.0",
     "author": "Matthew Little",
@@ -25,13 +25,13 @@
     "main": "lib/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Stackout/node-stratum-pool.git"
+        "url": "https://github.com/sygem/node-stratum-pool.git"
     },
     "dependencies": {
-        "multi-hashing": "git://github.com/Stackout/node-multi-hashing.git",
-        "bignum": "0.12.5",
+        "async": "*",
         "base58-native": "*",
-        "async": "*"
+        "bignum": "0.13.0",
+        "multi-hashing": "git://github.com/sygem/node-multi-hashing.git"
     },
     "engines": {
         "node": ">=0.10"
