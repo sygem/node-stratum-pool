@@ -14,11 +14,14 @@
     ],
     "homepage": "https://github.com/sygem/node-stratum-pool",
     "bugs": {
-        "url": "https://github.com/sygemt/node-stratum-pool/issues"
+        "url": "https://github.com/sygem/node-stratum-pool/issues"
     },
     "license": "GPL-2.0",
-    "author": "Matthew Little",
+    "author": "JeffVader",
     "contributors": [
+        "Jonathan Horowitz",
+        "Matthew Little",
+        "cryptopool.builders",
         "vekexasia",
         "TheSeven"
     ],
@@ -31,7 +34,15 @@
         "async": "*",
         "base58-native": "*",
         "bignum": "0.13.0",
-        "multi-hashing": "git://github.com/sygem/node-multi-hashing.git"
+        "bitcoinjs-lib": "5.1.7",
+        "bitgo-utxo-lib": "git://github.com/miketout/bitgo-utxo-lib.git",
+        "cryptocurrency-addr": "0.0.2",
+        "equihashverify": "git://github.com/cryptopool-builders/equihashverify.git",
+        "merkle-bitcoin": "^1.0.2",
+        "multi-hashing": "git://github.com/sygem/node-multi-hashing.git",
+        "promise": "^8.0.3",
+        "sha3": "2.1.2",
+        "verushash": "git://github.com/cryptopool-builders/verushash-node.git"
     },
     "engines": {
         "node": ">=0.10"
